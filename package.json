@@ -1,0 +1,16 @@
+{
+  "name": "btc-gbp-converter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "kickoff-scripts": "1.0.14",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "scripts": {
+    "start": "kickoff-scripts start",
+    "build": "kickoff-scripts build",
+    "test": "kickoff-scripts test --env=jsdom",
+    "eject": "kickoff-scripts eject"
+  }
+}
