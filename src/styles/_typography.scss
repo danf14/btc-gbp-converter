@@ -51,7 +51,7 @@ p {
 	font-family: $font-family-base;
 	@include ko-font-size(base);
 	margin-top: 0;
-	margin-bottom: $baseline;
+	margin-bottom: 0/*$baseline*/;
 
 	// Measure - ideally about 65 chars per line
 	// max-width: #{type(base) * 30}px;

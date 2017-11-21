@@ -4,7 +4,7 @@ import { Grid, Column } from '@kickoff/react-components';
 import Converter from './Converter';
 
 const MainGrid = () =>
-  <Grid gutter="gutter" stack="mid">
+  <Grid stack="huge">
     <Column span={4} /> 
     <Column span={4}>
       <Converter />
