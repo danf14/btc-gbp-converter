@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# dev files
+/src/components/BTC_USD.js
+/src/components/Converter1.js
+/src/components/ConverterOLD.js
+/src/components/ExchangeRate.js
+/src/components/GBP_USD.js
