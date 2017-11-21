@@ -46,13 +46,17 @@ class Converter extends Component {
 
       <div style={{paddingTop:'15%',}}>
         <p><small style={{ color:'rgba(210, 210, 210, 0.9)', }}>gbp/btc</small></p>
-        <p>{ this.state.btc && this.state.gbp ? (this.state.btc * this.state.gbp).toFixed(2) : 'Updating...' }</p>
-        <p style={{ color:'rgba(210, 210, 210, 0.9)', fontSize:'0.2rem', lineHeight:'0.2rem', }}>{ this.state.time }</p>
+        <p style={{letterSpacing: '-3px',}}>
+          { this.state.btc && this.state.gbp ? (this.state.btc * this.state.gbp).toFixed(2) : 'Updating...' }
+        </p>
+        <p style={{ color:'rgba(210, 210, 210, 0.9)', fontSize:'0.2rem', lineHeight:'0.2rem', }}>
+          { this.state.time }
+        </p>
         <p>
           <button className="btn" onClick={ this.fetchData }>update</button>
         </p>
-
       </div>  
+      
     )
   }
 }
